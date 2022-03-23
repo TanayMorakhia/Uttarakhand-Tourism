@@ -55,23 +55,23 @@ class RanikhetHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Woodsvilla Resort.jpg",
                       "Woodsvilla Resort ",
                       "Contact Details - (011) 41552060 \nStars - 2\nbreakfast, dinner included, free parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Kasar Himalaya Holiday Home.jpg",
                       "Kasar Himalaya Holiday Home",
                       "Contact Details - 097392 70306\nStars - 4\nbreakfast, free wifi."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Hotel Meghdoot.jpg",
                       "Hotel Meghdoot",
                       "Contact Details - 05966 220 475\nStars - 3\nfree wifi, restaurant, airport shuttle."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Xomotel Ranikhet Heights.jpg",
                       "Xomotel Ranikhet Heights",
                       "Contact Details - 098711 40305\nStars - 3\nbreakfast, free wifi, restaurant."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Stonewood Villa.jpg",
                       "Stonewood Villa",
                       "Contact Details - 091524 77340\nStars - 3\nparking, free wifi, pet-friendly."),
                 ],
