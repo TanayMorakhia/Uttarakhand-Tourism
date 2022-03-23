@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uttarakhand_tourism/pages/login_page.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -21,10 +22,9 @@ class HomePage extends StatelessWidget {
                   child: Text("F")),
             ),
             ListTile(
-              title: Text("E-Pass"),
-              trailing: Icon(Icons.area_chart),
-              onTap: () => Navigator.of(context),
-            ),
+                title: Text("E-Pass"),
+                trailing: Icon(Icons.arrow_forward),
+                onTap: () {}),
             Divider(
               thickness: 0.5,
             ),
