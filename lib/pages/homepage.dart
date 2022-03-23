@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uttarakhand_tourism/pages/login_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -15,23 +16,39 @@ class HomePage extends StatelessWidget {
             UserAccountsDrawerHeader(
               accountName: Text("Arpit Tripathi"),
               accountEmail: Text("tripathiarpit793@gmail.com"),
+              currentAccountPicture: CircleAvatar(
+                  backgroundColor: Color.fromARGB(115, 123, 154, 223),
+                  child: Text("F")),
             ),
             ListTile(
-              title: Text("Weather"),
-              trailing: Icon(Icons.sunny),
+              title: Text("E-Pass"),
+              trailing: Icon(Icons.area_chart),
+              onTap: () => Navigator.of(context),
+            ),
+            Divider(
+              thickness: 0.5,
             ),
             ListTile(
               title: Text("Help"),
               trailing: Icon(Icons.help),
             ),
+            Divider(
+              thickness: 0.5,
+            ),
             ListTile(
               title: Text("Emergency Contacts"),
               trailing: Icon(Icons.contacts),
             ),
-            ListTile(
-              title: Text("Covid-19 "),
-              trailing: Icon(Icons.contacts),
+            Divider(
+              thickness: 0.5,
             ),
+            ListTile(
+              title: Text("Covid-19 Guidelines"),
+              trailing: Icon(Icons.coronavirus_rounded),
+            ),
+            Divider(
+              thickness: 0.5,
+            )
           ],
         ),
       ),
