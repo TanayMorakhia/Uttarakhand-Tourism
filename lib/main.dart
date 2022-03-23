@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       routes: {
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
-        MyRoutes.placesRoute: (context) => DiffPlaces(),
+        // MyRoutes.placesRoute: (context) => DiffPlaces(),
       },
     );
   }
