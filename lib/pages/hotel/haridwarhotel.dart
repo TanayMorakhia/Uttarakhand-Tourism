@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-
-
 class HaridwarHotels extends StatelessWidget {
-  const HaridwarHotels ({Key? key}) : super(key: key);
+  const HaridwarHotels({Key? key}) : super(key: key);
 
   Container MyArticles(String imageVal, String heading, String subHeading) {
     return Container(
@@ -57,24 +55,22 @@ class HaridwarHotels extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Hotel Golden.jpg",
                       "Haridwar-Hotel Golden",
                       "Contact Details - 097190 09690 \nStars - 3.6\nSituated just a few steps away from the banks of Ganga River, Hotel Golden is only about 200 metres from Haridwar Junction Railway Station."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Fortune Park.jpg",
                       "Fortune Park Haridwar",
                       "Contact Details - 01334 277 777\nStars - 4.5\nFortune Park is strategically located on National Highway 58, just 5 km from SIDCUL, the industrial hub and 12 km from Har ki Pauri."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/ambrosia sarovar portico.jpg",
                       "Ambrosia Sarovar Portico",
                       "Contact Details - 095369 00146\nStars - 4.1\nAmbrosia Sarovar Portico is a majestic hotel offering luxury and comfort par excellence to ensure delightful stays for business and leisure travellers."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/amatra by the ganges.jpg",
                       "Amatra By The Ganges",
                       "Contact Details - 076690 04301\nStars - 4.1\nExperience unparalleled luxury at this lavish property featuring opulent rooms, a multi-cuisine restaurant, an outdoor pool and world-class amenities"),
-                  MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
-                      "GANGA EXOTICA",
+                  MyArticles("assets/images/Ganga Exotica.jpg", "GANGA EXOTICA",
                       "Contact Details - 074093 31004\nStars - 4.5\nHotel Ganga Exotica is nestled in Haridwar which is the gateway to the four pilgrimages of uttarakhand."),
                 ],
               ))),
