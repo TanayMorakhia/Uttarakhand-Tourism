@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'package:uttarakhand_tourism/apis/google_sign_in.dart';
 import 'package:uttarakhand_tourism/utils/routes.dart';
+// import 'package:uttarakhand_tourism/pages/homepage.dart';
+// import 'package:uttarakhand_tourism/utils/routes.dart';
+
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -36,6 +40,7 @@ class LoginPage extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       onPressed: () {
+                        signIn();
                         Navigator.pushNamed(context, MyRoutes.homeRoute);
                       },
                       child: Text("Sign in with Google"),
@@ -77,10 +82,17 @@ class LoginPage extends StatelessWidget {
                     //   style: TextButton.styleFrom(minimumSize: Size(120, 40)),
                     // )
                   ],
+                  
                 ),
               )
             ],
           ),
         ));
   }
+ 
+}
+Future signIn() async{
+  final user = await GoogleSignInApi.login();
+  
+  //Navigator.pushNamed(context, MyRoutes.homeRoute);
 }
