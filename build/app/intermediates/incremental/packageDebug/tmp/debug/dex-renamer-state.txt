@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Wed Mar 23 18:39:24 IST 2022
 base.0=C\:\\Users\\tdmor\\Desktop\\Uttarakhand Tourism\\uttarakhand_tourism\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Wed Mar 23 17:23:47 IST 2022
+base.0=C\:\\Users\\HP\\Desktop\\UT\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+>>>>>>> 5bfc3049cd0edbe9970397d8b6aee8712f1e7456
 renamed.0=classes.dex
 path.0=classes.dex
