@@ -55,23 +55,23 @@ class NainitalHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Hotel Himalaya.jpg",
                       "Hotel Himalaya",
                       "Contact Details - 070602 36677 \nStars - 3\nbreakfast, express check-in, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Sterling Nanintal.jpg",
                       "Sterling Nanital",
                       "Contact Details - 05942 297 191\nStars - 3\nbreakfast, free wifi, welcome drink,, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Country Inn Bhimtal.jpg",
                       "Country Inn Bhimtal",
                       "Contact Details - 099996 84346\nStars - 4.5\nbreakfast, express checkin, dinner included, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Langdale Manor by Vedikant.jpg",
                       "The Langdale Manor by Vedikant",
                       "Contact Details - 097117 04678\nStars - 3.5\nbreakfast, free wifi, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Roseinch Sarovar Portico.jpg",
                       "The Roseinch Sarovar Portico",
                       "Contact Details - 086300 31003\nStars - 4\nbreakfast, parking, express checkin, dinner included, free wifi."),
                 ],

@@ -55,23 +55,21 @@ class DehradunHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Solitaire Express.jpg",
                       "The Solitaire Express",
                       "Contact Details - 086500 02066 \nStars - 3\nbreakfast, welcome drink, free wifi, parking, dinner included, express checkin."),
-                  MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
-                      "Ramada",
+                  MyArticles("assets/images/Ramada.jpg", "Ramada",
                       "Contact Details - 0135 253 6666\nStars - 5\nbreakfast, free wifi, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Hotel Rajpur Heights.jpg",
                       "Hotel Rajpur Heights",
                       "Contact Details - 079008 88831\nStars - 3\nbreakfast, welcome drink, free wifi, parking, dinner included, express checkin."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Cygnett Inn Paras.jpg",
                       "Cygnett Inn Paras",
                       "Contact Details - 085954 50450\nStars - 3\nbreakfast, parking, free wifi."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Solitaire Dehradun.jpg",
                       "The Solitaire Dehradun",
                       "Contact Details - 086500 02072\nStars - 4\nbreakfast, free fitness centre access, spa, breverage credit, parking, free wifi, dinner included."),
                 ],
