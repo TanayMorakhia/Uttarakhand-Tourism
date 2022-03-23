@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:uttarakhand_tourism/pages/splashscreen.dart';
+import 'package:uttarakhand_tourism/pages/homepage.dart';
+import 'package:uttarakhand_tourism/pages/login_page.dart';
+import 'package:uttarakhand_tourism/pages/places.dart';
+import 'package:uttarakhand_tourism/utils/routes.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,9 +16,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: SplashScreen(),
+      routes: {
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
+        MyRoutes.placesRoute: (context) => DiffPlaces(),
+      },
     );
   }
 }
-
-
