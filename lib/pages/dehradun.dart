@@ -99,9 +99,13 @@ class Dehradun extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Image.asset(
-            "assets/images/ked.png",
-            fit: BoxFit.cover,
+          Text(
+            "Dehradun",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              fontFamily: GoogleFonts.dancingScript().fontFamily,
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),

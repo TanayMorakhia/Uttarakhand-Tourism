@@ -86,12 +86,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_phone_direct_caller",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_phone_direct_caller-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///D:/FLUTTER/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -296,42 +290,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "url_launcher",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "url_launcher_linux",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "url_launcher_macos",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "url_launcher_platform_interface",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.9",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "url_launcher_web",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+3",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
-    },
-    {
-      "name": "url_launcher_windows",
-      "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
       "name": "vector_math",
       "rootUri": "file:///D:/FLUTTER/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.1",
       "packageUri": "lib/",
@@ -356,7 +314,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-23T20:42:19.453796Z",
+  "generated": "2022-03-23T22:35:38.480864Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }

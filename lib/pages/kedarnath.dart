@@ -2,8 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class DiffPlaces extends StatelessWidget {
-  const DiffPlaces({Key? key}) : super(key: key);
+class Kedarnath extends StatelessWidget {
+  const Kedarnath({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -99,9 +99,17 @@ class DiffPlaces extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Image.asset(
-            "assets/images/ked.png",
-            fit: BoxFit.cover,
+          Row(),
+          Text(
+            "Kedarnath",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              fontFamily: GoogleFonts.dancingScript().fontFamily,
+            ),
+          ),
+          SizedBox(
+            height: 5,
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
