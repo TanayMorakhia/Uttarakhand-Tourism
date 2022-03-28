@@ -55,23 +55,21 @@ class JimCorbitHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Country Inn Corbet.jpg",
                       "Country Inn Corbet",
                       "Contact Details - 99996 84346 \nStars - 5\nbreakfast, welcome drink, parking, lunch and dinner included, free wifi."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Sterling Corbett.jpg",
                       "Sterling Corbett",
                       "Contact Details - 70552 00563\nStars - 3\nbreakfast, free wifi, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Corbett River Creek by Harmony Hotels & Resorts.jpg",
                       "Corbett River Creek by Harmony Hotels & Resorts",
                       "Contact Details - 011 4084 4911\nStars - 3\nbreakfast, parking."),
-                  MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
-                      "Hotel Le Roi",
+                  MyArticles("assets/images/Hotel Le Roi.jpg", "Hotel Le Roi",
                       "Contact Details - 95606 46677\nStars - 3\nbreakfast, welcome drink, parking, lunch and dinner included, express check in."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Limewood Riverside Resort.jfif",
                       "Limewood Riverside Resort",
                       "Contact Details - 98112 60214\nStars - 4\nfree wifi, parking."),
                 ],

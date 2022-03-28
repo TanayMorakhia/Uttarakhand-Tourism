@@ -58,23 +58,21 @@ class AbbottMountHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Trinetra Orchards.jfif",
                       "Trinetra Orchards",
                       "Contact Details - 099710 53434 \nStars - 3\nBreakfast, welcome drink, parking, dinner included, free wifi."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Alpine Chalet Resort Dhanachuli.jpg",
                       "The Alpine Chalet Resort Dhanachuli",
                       "Contact Details - 073022 22909\nStars - 4\nBreakfast, welcome drink, parking, dinner included, free wifi."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Justa Mukteshwar Retreat and Spa.jpg",
                       "Justa Mukteshwar Retreat and Spa",
                       "Contact Details - 095208 99801\nStars - 5\nbreakfast, free fitness centre access, welcome drink, free wifi, parking."),
-                  MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
-                      "Jaishnavi ",
+                  MyArticles("assets/images/Jaishnavi.jpg", "Jaishnavi ",
                       "Contact Details - 090150 23388\nStars - 3\nbreakfast, dinner included, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/MJ Hotel And Resorts.jpg",
                       "MJ Hotel And Resorts",
                       "Contact Details - 05965 297 000\nStars - 5\nspa, free wifi, parking"),
                 ],

@@ -21,10 +21,8 @@ class AlmoraHotel extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 34,
                   color: Colors.blue,
-                
                 ),
               ),
-              
               subtitle: Text(subHeading),
             ),
           ],
@@ -57,24 +55,23 @@ class AlmoraHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Hotel Shivalik.jpg",
                       "Hotel Shivalik",
                       "Contact Details - 91-8650907230 \nStars - 3\nbreakfast, free wifi."),
-                      
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Tree of Life Grand Oak Manor.jpg",
                       "Tree of Life Grand Oak Manor",
                       "Contact Details - 096020 91000\nStars - 4\nparking, breakfast, lunch included."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/The Green Village Eco Resort.jpg",
                       "The Green Village Eco Resort",
                       "Contact Details - 094120 01114\nStars - 3\npet-friendly, room service, full-sevice laundary, parking."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Imperial Heights Binsar.jpg",
                       "Imperial Heights Binsar",
                       "Contact Details - 086502 69454\nStars - 3\nbreakfast, free wifi"),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Alhito Cafe & Resort.jfif",
                       "Alhito Cafe & Resort",
                       "Contact Details - 075054 80051\nStars - 5\nbreakfast, free wifi, parking."),
                 ],

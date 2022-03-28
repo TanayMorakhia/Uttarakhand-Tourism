@@ -55,23 +55,23 @@ class MussorieHotel extends StatelessWidget {
                 scrollDirection: Axis.vertical,
                 children: <Widget>[
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Welcome Hotel by ITC.png",
                       "Welcomhotel by ITC Hotels",
                       "Contact Details - 0177 286 0300 \nStars - 4.5\nRejuvenate your mind and body with holistic therapies and wellness treatments at the on-site spa. Enjoy a wide range of outdoor activities such as village tours, yoga and river rafting."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Royal Orchid Fort Resort.jpg",
                       "Royal Orchid Fort Resort",
                       "Contact Details - 78959 22233 \nStars - 4.1\nAbout Hotel Classio Collection Overview: Hotel Classio Collection is a great choice for travellers looking for a 4 star hotel in Lucknow. It is located in Gomti Nagar. Hotel is rated 4.5 out of 5, which is considered as very good."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Fortune Resort Grace.jpg",
                       "Fortune Resort Grace",
                       "Contact Details - 095208 69011\nStars - 4.2\nPamper your body with wellness treatments at the on-site spa, Metta. Witness the stunning views of the spellbinding Ganges River from the comfort of your room."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Jaypee Residency Manor.jpg",
                       "Jaypee Residency Manor",
                       "Contact Details - 0135 263 1800\nStars - 4.2\nLocated at a short distance from the Ganges, goSTOPS Rishikesh is our next prime hostel in the Yoga Capital of the World. With cosy space and classy interiors, goSTOPS Rishikesh is the perfect place you were looking to kickstart your next adventure."),
                   MyArticles(
-                      "Asset/WhatsApp Image 2022-03-23 at 10.42.29 (1).jpeg",
+                      "assets/images/Yog Wellness by Amrita.jpg",
                       "Yog Wellness By Amritara",
                       "Contact Details - 084474 33413\nStars - 4.2\nThere is an amazing rooftop with a scenic view and a seating area. The property offers a breathtaking view of surroundings hills of Rishikesh."),
                 ],
