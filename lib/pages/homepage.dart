@@ -135,10 +135,14 @@ class HomePage extends StatelessWidget {
             ),
             Row(
               children: [
-                Text(
-                  'Other Important Places',
-                  style: TextStyle(
-                    fontSize: 20.0,
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(10.0, 0, 0, 0),
+                  child: Text(
+                    'Major Attractions',
+                    style: TextStyle(
+                      fontSize: 23.0,
+                      fontFamily: GoogleFonts.ebGaramond().fontFamily,
+                    ),
                   ),
                 ),
               ],
@@ -510,7 +514,7 @@ class HomePage extends StatelessWidget {
                     Navigator.pushNamed(context, MyRoutes.dehradunRoute);
                   },
                   child: Image.asset(
-                    'assets/images/dehradun.png',
+                    'assets/images/dehradun1.png',
                     fit: BoxFit.fitWidth,
                     alignment: Alignment.centerLeft,
                   ),
@@ -575,7 +579,7 @@ class HomePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(15, 5, 8, 0),
                   child: Text(
-                    "Almohra",
+                    "Almora",
                     textAlign: TextAlign.right,
                     style: TextStyle(
                       fontSize: 26.0,
@@ -708,8 +712,14 @@ class HomePage extends StatelessWidget {
                 accountName: Text("Arpit Tripathi"),
                 accountEmail: Text("tripathiarpit793@gmail.com"),
                 currentAccountPicture: CircleAvatar(
-                    backgroundColor: Color.fromARGB(115, 123, 154, 223),
-                    child: Text("F")),
+                    backgroundColor: Colors.orange,
+                    child: Text(
+                      "t",
+                      style: TextStyle(
+                        fontSize: 27,
+                        color: Colors.white,
+                      ),
+                    )),
               ),
               ListTile(
                 title: Text("E-Pass"),
@@ -736,6 +746,9 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: Text("Covid-19 Guidelines"),
                 trailing: Icon(Icons.coronavirus_rounded),
+                onTap: () {
+                  Navigator.pushNamed(context, MyRoutes.drawerRoute);
+                },
               ),
               Divider(
                 thickness: 0.5,

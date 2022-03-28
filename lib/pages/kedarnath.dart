@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:uttarakhand_tourism/utils/routes.dart';
 
 class Kedarnath extends StatelessWidget {
   const Kedarnath({Key? key}) : super(key: key);
@@ -99,17 +100,71 @@ class Kedarnath extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Row(),
-          Text(
-            "Kedarnath",
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              fontFamily: GoogleFonts.dancingScript().fontFamily,
+          Center(
+            child: Text(
+              "Kedarnath",
+              style: TextStyle(
+                fontSize: 55,
+                fontWeight: FontWeight.bold,
+                fontFamily: GoogleFonts.dancingScript().fontFamily,
+              ),
             ),
           ),
           SizedBox(
-            height: 5,
+            height: 8,
+          ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(
+                          context, MyRoutes.hotelKedarnathRoute);
+                    },
+                    child: Text(
+                      "Hotels",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.foodRoute);
+                    },
+                    child: Text(
+                      "Food",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 0, 30, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.weatherRoute);
+                    },
+                    child: Text(
+                      "Weather",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),

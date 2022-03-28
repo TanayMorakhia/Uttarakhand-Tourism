@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:uttarakhand_tourism/utils/routes.dart';
 
 class Gangotri extends StatelessWidget {
   const Gangotri({Key? key}) : super(key: key);
@@ -9,7 +10,7 @@ class Gangotri extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Kedarnath"),
+        title: Text("Gangotri"),
       ),
       body: ListView(
         children: [
@@ -25,7 +26,7 @@ class Gangotri extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a2VkYXJuYXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"),
+                        "https://www.google.com/search?q=gangotri+images&oq=&aqs=chrome.2.69i327j35i39i362l6j46i39i362j35i39i362l7.-1j1j7&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8#imgrc=xC6ZjwenRn4deM"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -38,7 +39,7 @@ class Gangotri extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://images.unsplash.com/photo-1623952146070-f13fc902f769?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2VkYXJuYXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"),
+                        "https://www.google.com/search?q=gangotri+images&client=ms-android-samsung-ss&prmd=ivn&sxsrf=APq-WBuEOTdWfYNq1oiii6P9N7XIlRoF6A:1648086238236&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC8KfWz932AhWc8XMBHZ51BjUQ_AUoAXoECAIQAQ&biw=384&bih=717&dpr=2.81#imgrc=RGFX9J9FfEDxkM"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -51,7 +52,7 @@ class Gangotri extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://media.istockphoto.com/photos/kedarnath-temple-uttarakhand-india-picture-id1185555466?b=1&k=20&m=1185555466&s=170667a&w=0&h=Jlkb4tuQdox8glO_hREz_zAVkFbtFm2jmBSqDLRnNwo="),
+                        "https://www.google.com/search?q=gangotri+images&client=ms-android-samsung-ss&prmd=ivn&sxsrf=APq-WBuEOTdWfYNq1oiii6P9N7XIlRoF6A:1648086238236&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC8KfWz932AhWc8XMBHZ51BjUQ_AUoAXoECAIQAQ&biw=384&bih=717&dpr=2.81#imgrc=RGFX9J9FfEDxkM"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -64,7 +65,7 @@ class Gangotri extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://thumbs.dreamstime.com/z/kedarnath-india-temple-sunrise-hindu-temple-dedicated-to-shiva-68148232.jpg"),
+                        "https://www.google.com/search?q=gangotri%20images&tbm=isch&tbs=rimg:Cf2M4paTsCjuYS-jBzQylSWZsgIMCgIIABAAOgQIABAA&client=ms-android-samsung-ss&prmd=ivn&hl=en&sa=X&ved=0CBIQuIIBahcKEwiQ9Y3vz932AhUAAAAAHQAAAAAQFg&biw=384&bih=717#imgrc=AsrAJwJsSQSIhM"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -77,7 +78,7 @@ class Gangotri extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://thumbs.dreamstime.com/b/kedarnath-temple-taken-uttarakhand-india-122970997.jpg"),
+                        "https://www.google.com/search?q=gangotri%20images&tbm=isch&tbs=rimg:Cf2M4paTsCjuYS-jBzQylSWZsgIMCgIIABAAOgQIABAA&client=ms-android-samsung-ss&prmd=ivn&hl=en&sa=X&ved=0CBIQuIIBahcKEwiQ9Y3vz932AhUAAAAAHQAAAAAQFg&biw=384&bih=717#imgrc=Crdti_jOqfw3DM"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -99,18 +100,75 @@ class Gangotri extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Text(
-            "Gangotri",
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-              fontFamily: GoogleFonts.dancingScript().fontFamily,
+          Center(
+            child: Text(
+              "Gangotri",
+              style: TextStyle(
+                fontSize: 55,
+                fontWeight: FontWeight.bold,
+                fontFamily: GoogleFonts.dancingScript().fontFamily,
+              ),
             ),
+          ),
+          SizedBox(
+            height: 8,
+          ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.hotelGangotriRoute);
+                    },
+                    child: Text(
+                      "Hotels",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.foodRoute);
+                    },
+                    child: Text(
+                      "Food",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 0, 30, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.hotelGangotriRoute);
+                    },
+                    child: Text(
+                      "Weather",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: Text(
-              "The temple is said to be more than 1,200 years old and one among the 12 jyotirlingas in India. The majestic Kedarnath peak (6,940 metres) stands behind the temple along with other peaks and adds to the scenery of the area. Built from large, heavy and evenly cut grey slabs of stones, the structure is a masterpiece. The conical Shiva lingam is worshipped as the Lord in his Sadashiva form. It adds a unique feature to the temple among all Shiva shrines. The Garbha Griha is for worship and a Mandap is for assemblies of pilgrims and visitors. The Kedarnath temple closes on the first day of Kartik (October-November) and reopens in Vaishakh (April-May) every year. Around this time of the year, the air appears to echo with the name of Lord Shiva amid snowclad peaks, meadows and forests of the lower range of the Himalayas. The temple is built on the banks of Mandakini and the Saraswati rivers. Other places in Kedarnath Dham that are major tourist attractions are Gaurikund, Chorbari Tal, Bhairav Temple and Vasuki Tal. Looking back at history and legends, one can say that Kedarnath has truly stood the test of time.",
+              "Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India. It is 99 km from Uttarkashi, the main district headquarter. It is a Hindu pilgrim town on the banks of the river Bhagirathi and origin of the river Ganges. The town is located on the Greater Himalayan Range, at a height of 3,100 metres (10,200 ft). According to popular Hindu legend, it was here that Goddess Ganga descended when Lord Shiva released the mighty river from the locks of his hair.",
               style: TextStyle(
                 fontSize: 15,
                 fontFamily: GoogleFonts.ebGaramond().fontFamily,
