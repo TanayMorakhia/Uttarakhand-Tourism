@@ -5,7 +5,6 @@ import 'package:uttarakhand_tourism/utils/routes.dart';
 // import 'package:uttarakhand_tourism/pages/homepage.dart';
 // import 'package:uttarakhand_tourism/utils/routes.dart';
 
-
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
 
@@ -23,6 +22,9 @@ class LoginPage extends StatelessWidget {
                 "assets/images/logo.png",
                 fit: BoxFit.cover,
               ),
+              SizedBox(
+                height: 35.0,
+              ),
               Text(
                 "Welcome",
                 style: TextStyle(
@@ -39,60 +41,62 @@ class LoginPage extends StatelessWidget {
                 child: Column(
                   children: [
                     ElevatedButton(
-                      onPressed: () {
+                      onPressed: () async {
                         signIn();
+
                         Navigator.pushNamed(context, MyRoutes.homeRoute);
                       },
                       child: Text("Sign in with Google"),
                       style: TextButton.styleFrom(minimumSize: Size(180, 42)),
                     ),
-                    // TextFormField(
-                    //   decoration: InputDecoration(
-                    //     hintText: "Enter username",
-                    //     labelText: "Username",
-                    //   ),
-                    //   validator: (value) {
-                    //     if (value!.isEmpty) {
-                    //       return "Username cannot be empty";
-                    //     }
-                    //     return null;
-                    //   },
-                    // ),
-                    // TextFormField(
-                    //   obscureText: true,
-                    //   decoration: InputDecoration(
-                    //     hintText: "Enter Password",
-                    //     labelText: "Password",
-                    //   ),
-                    //   validator: (value) {
-                    //     if (value!.isEmpty) {
-                    //       return "Password cannot be empty";
-                    //     }
-                    //     return null;
-                    //   },
-                    // ),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        hintText: "Enter username",
+                        labelText: "Username",
+                      ),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return "Username cannot be empty";
+                        }
+                        return null;
+                      },
+                    ),
+                    TextFormField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        hintText: "Enter Password",
+                        labelText: "Password",
+                      ),
+                      validator: (value) {
+                        if (value!.isEmpty) {
+                          return "Password cannot be empty";
+                        }
+                        return null;
+                      },
+                    ),
                     SizedBox(
                       height: 20.0,
                     ),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     // Navigator.pushNamed(context, MyRoutes.homeRoute);
-                    //   },
-                    //   child: Text("Login"),
-                    //   style: TextButton.styleFrom(minimumSize: Size(120, 40)),
-                    // )
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, MyRoutes.homeRoute);
+                      },
+                      child: Text("Login"),
+                      style: TextButton.styleFrom(minimumSize: Size(120, 40)),
+                    )
                   ],
-                  
                 ),
               )
             ],
           ),
         ));
   }
- 
-}
-Future signIn() async{
-  final user = await GoogleSignInApi.login();
-  
-  //Navigator.pushNamed(context, MyRoutes.homeRoute);
+
+  Future signIn() async {
+    final user = await GoogleSignInApi.login();
+
+    // Navigator.of(context).pushReplacement(MaterialPageRoute(
+    //   builder: (context) => HomePage(),
+    // ));
+  }
 }

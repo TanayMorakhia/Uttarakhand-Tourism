@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:uttarakhand_tourism/utils/routes.dart';
 
 class AbottMount extends StatelessWidget {
   const AbottMount({Key? key}) : super(key: key);
@@ -9,7 +10,7 @@ class AbottMount extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Kedarnath"),
+        title: Text("Abott Mount"),
       ),
       body: ListView(
         children: [
@@ -25,7 +26,7 @@ class AbottMount extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a2VkYXJuYXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"),
+                        "https://images2.alphacoders.com/522/522133.jpg"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -38,7 +39,7 @@ class AbottMount extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://images.unsplash.com/photo-1623952146070-f13fc902f769?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2VkYXJuYXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"),
+                        "https://www.holidify.com/images/bgImages/ABBOTT-MOUNT.jpg"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -51,7 +52,7 @@ class AbottMount extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://media.istockphoto.com/photos/kedarnath-temple-uttarakhand-india-picture-id1185555466?b=1&k=20&m=1185555466&s=170667a&w=0&h=Jlkb4tuQdox8glO_hREz_zAVkFbtFm2jmBSqDLRnNwo="),
+                        "https://uttarakhandtourism.gov.in/sites/default/files/2020-09/Banner1.jpg"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -64,7 +65,7 @@ class AbottMount extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://thumbs.dreamstime.com/z/kedarnath-india-temple-sunrise-hindu-temple-dedicated-to-shiva-68148232.jpg"),
+                        "https://uttarakhandtourism.gov.in/sites/default/files/2020-09/Banner2.jpg"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -77,7 +78,7 @@ class AbottMount extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                   image: DecorationImage(
                     image: NetworkImage(
-                        "https://thumbs.dreamstime.com/b/kedarnath-temple-taken-uttarakhand-india-122970997.jpg"),
+                        "https://s3-us-west-2.amazonaws.com/wildr1/abbott-mount-cottage17.jpg"),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -99,14 +100,77 @@ class AbottMount extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Image.asset(
-            "assets/images/ked.png",
-            fit: BoxFit.cover,
+          Center(
+            child: Text(
+              "Abott Mount",
+              style: TextStyle(
+                fontSize: 55,
+                fontWeight: FontWeight.bold,
+                fontFamily: GoogleFonts.dancingScript().fontFamily,
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 8,
+          ),
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(
+                          context, MyRoutes.hotelabottMountRoute);
+                    },
+                    child: Text(
+                      "Hotels",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, MyRoutes.foodRoute);
+                    },
+                    child: Text(
+                      "Food",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 0, 30, 0),
+                child: CircleAvatar(
+                  maxRadius: 35,
+                  backgroundColor: Colors.deepPurple,
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(
+                          context, MyRoutes.hotelabottMountRoute);
+                    },
+                    child: Text(
+                      "Weather",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: Text(
-              "The temple is said to be more than 1,200 years old and one among the 12 jyotirlingas in India. The majestic Kedarnath peak (6,940 metres) stands behind the temple along with other peaks and adds to the scenery of the area. Built from large, heavy and evenly cut grey slabs of stones, the structure is a masterpiece. The conical Shiva lingam is worshipped as the Lord in his Sadashiva form. It adds a unique feature to the temple among all Shiva shrines. The Garbha Griha is for worship and a Mandap is for assemblies of pilgrims and visitors. The Kedarnath temple closes on the first day of Kartik (October-November) and reopens in Vaishakh (April-May) every year. Around this time of the year, the air appears to echo with the name of Lord Shiva amid snowclad peaks, meadows and forests of the lower range of the Himalayas. The temple is built on the banks of Mandakini and the Saraswati rivers. Other places in Kedarnath Dham that are major tourist attractions are Gaurikund, Chorbari Tal, Bhairav Temple and Vasuki Tal. Looking back at history and legends, one can say that Kedarnath has truly stood the test of time.",
+              "A dwarf and picturesque hill station, Abbott Mount is a place for an ultimate Uttarakhand holiday. Ornate with the best of nature, this hill station situated in the Champawat District of Kali Kumaon Region is a hideout for nature lovers, seeking some peaceful time amidst tranquil and serene environ. The place also has spectacular trails and walkways that lead to few beautiful locales.",
               style: TextStyle(
                 fontSize: 15,
                 fontFamily: GoogleFonts.ebGaramond().fontFamily,
